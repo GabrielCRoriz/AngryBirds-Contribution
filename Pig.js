@@ -9,7 +9,7 @@ class Pig extends BaseClass {
   //checar a velocidade do pig no console
   // diminuir o valor da condição para ser mais facil de derrota-lo
    console.log("pig velocity= " + this.body.speed);
-   if(this.body.speed < 3){
+   if(this.body.speed < 4){
 
     super.display();
    }
